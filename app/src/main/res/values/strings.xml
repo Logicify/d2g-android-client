@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image Processing</string>
+    <string name="KEY_BITMAP">bitmap</string>
+    <string name="IMAGE_TYPE">image/*</string>
+    <string name="DATE_FORMAT">yyyyMMdd_HHmmss</string>
+    <string name="IMG_FORMAT_NAME">JPEG_</string>
+    <string name="IMG_FORMAT_JPG">.jpg</string>
+    <string name="Profile">Profile</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
