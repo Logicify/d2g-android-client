@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\960755a1c35107e9699f171376142a9702f5b44a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_81abdf0e704e2718df58995a94f0274c241975cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\AndroidStudioProjects\ImageProcessing\app\libs\http-core-4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\http-core-4.1_48408355794886dc7f04f8a724a0c1a731b1baa4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\80155360618859132594e07b8febe0518db8f13f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_e6d8a25a56a02620c136fff484e96a8ee6eff3ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\AndroidStudioProjects\ImageProcessing\openCVLibrary320\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="038e8806866760ccd8568b401b8052e937e4be1a">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_1b34292a9e8a4cac320a23824230deb793a1b078.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\2a0c6d6459425091700b58c053221bda5f56ccae\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_426d2350d4a31e632da835a20759a40b586d5955.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\bf2c4551282668cc287910bb0f100de01211aea3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_609c682a4950290bb586f46261a34ba6421691aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\79313d1d7f3403d8ef73ae9fc72247d3896b91b5\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_0140bfdedd22a9dbe1900777dc43e4848adba499.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\AndroidStudioProjects\ImageProcessing\app\libs\httpclient-4.2.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6a91a27c5c07e9da44eeddbc4206e349735b26f4">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\httpclient-4.2.3_d89486db2a1bf554f35dd89acbabb99483023092.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\e379c57871278b95d21bee5107a3fa28589cfe11\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_fdeb15c2370b78d9118dc69f0d7d94782c309b6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\c695bd22e1ea8908780c4917f6ed6c26561f5987\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_c4c7878556d4f17351024c28602c6a5c1dd95c72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\f19dc0f7e19ef1fac38f515383a33771666ba3a0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_23cba0f29b10d80901f6821b78dc6a2973a5feef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\76c2776af99ddbc6a3c8a614efa63b74c7820cb8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_c07a261bbca30438593383d1919b8195cf897fdd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\302e734c5ff3e52ff3edd89061b7963de1091fe7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_0e8a44a7a874e87c11c79137a0b4d11f8033cc54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\0b1a406f47375ab68a3a3c0af24868c16b40be42\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_3b6128a7faa33b821c134e467b208752349b15f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Vadim\.android\build-cache\75d41c3484460c64cf751c359befadfb912a99e6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\AndroidStudioProjects\ImageProcessing\app\build\intermediates\pre-dexed\debug\classes_47b6b159dd8370ac36d2faa92d7eba8dcd7e6ab2.jar" />
+    </item>
+
+</items>
