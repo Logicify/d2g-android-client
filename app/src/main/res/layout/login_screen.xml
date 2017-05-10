@@ -21,7 +21,7 @@
         android:layout_above="@+id/button1"
         android:layout_alignParentLeft="true"
         android:ems="10"
-        android:text="qwerty123">
+        android:text="5kDLtrYpyX">
 
         <requestFocus />
     </EditText>
@@ -41,7 +41,7 @@
         android:layout_above="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:ems="10"
-        android:text="email@gmail.com" />
+        android:text="admin@d2g.com" />
 
     <TextView
         android:id="@+id/textView1"

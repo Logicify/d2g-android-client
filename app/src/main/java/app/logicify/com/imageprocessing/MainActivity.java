@@ -57,7 +57,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         OpenCVLoader.initDebug();
     }
 
-    final Context context = this;
+    static Context context;
 
     private String KEY_BITMAP;
 
@@ -91,11 +91,17 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
      */
     private GoogleApiClient client;
 
+    public static Context getContext() {
+        return context;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+
+        context = this;
 
         KEY_BITMAP = getResources().getString(R.string.KEY_BITMAP);
         //mImageView = (ImageView) findViewById(R.id.ivPhoto);

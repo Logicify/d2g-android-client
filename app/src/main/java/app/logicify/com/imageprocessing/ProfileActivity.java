@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -20,51 +21,46 @@ import java.util.HashMap;
 public class ProfileActivity extends AppCompatActivity {
 
     public static String JsonURL;
-    private static ArrayList<HashMap<String, Object>> myBooks;
-    private static final String FIRST = "firstname";
-    private static final String LAST = "lastname";
-    public ListView listView;
+
+    private static final String ID = MainActivity.getContext().getResources().getString(R.string.personID);
+    private final String FIRSTNAME = MainActivity.getContext().getResources().getString(R.string.personFIRSTNAME);
+    private final String LASTNAME = MainActivity.getContext().getResources().getString(R.string.personLASTNAME);
+    private final String EMAIL = MainActivity.getContext().getResources().getString(R.string.personEMAIL);
+    private final String AVATARURL = MainActivity.getContext().getResources().getString(R.string.personAVATARURL);
+
+    private TextView userName;
+    private TextView userEmail;
+    private TextView userId;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.profile_screen);
-        ////listView = (ListView) findViewById(R.id.item_product_list);
-        myBooks = new ArrayList<HashMap<String, Object>>();
-        //принимаем параметр который мы послылали в manActivity
+
+        userName = (TextView) findViewById(R.id.user_profile_name);
+        userEmail = (TextView) findViewById(R.id.user_profile_email);
+        userId = (TextView) findViewById(R.id.user_profile_id);
+
         Bundle extras = getIntent().getExtras();
-        //превращаем в тип стринг для парсинга
         String json = extras.getString(JsonURL);
         //передаем в метод парсинга
-        ////JSONURL(json);
+        JSONURL(json);
         getSupportActionBar().hide();
 
     }
 
     public void JSONURL(String result) {
-
         try {
-            //создали читателя json объектов и отдали ему строку - result
+            //создали json объектов и отдали ему строку - result
             JSONObject json = new JSONObject(result);
-            //дальше находим вход в наш json им является ключевое слово data
-            JSONArray urls = json.getJSONArray("data");
-            //проходим циклом по всем нашим параметрам
-            for (int i = 0; i < urls.length(); i++) {
-                HashMap<String, Object> hm;
-                hm = new HashMap<String, Object>();
-                //читаем что в себе хранит параметр firstname
-                hm.put(FIRST, urls.getJSONObject(i).getString("firstName").toString());
-                //читаем что в себе хранит параметр lastname
-                hm.put(LAST, urls.getJSONObject(i).getString("lastName").toString());
-                myBooks.add(hm);
-                //дальше добавляем полученные параметры в наш адаптер
-                SimpleAdapter adapter = new SimpleAdapter(ProfileActivity.this, myBooks, R.layout.item_product_list,
-                        new String[] { FIRST, LAST, }, new int[] { R.id.text1, R.id.text2 });
-                //выводим в листвбю
-                listView.setAdapter(adapter);
-                listView.setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-            }
+            JSONObject payload = json.getJSONObject("payload");
+
+            userName.setText(payload.getString(FIRSTNAME) + " " + payload.getString(LASTNAME));
+            userEmail.setText(payload.getString(EMAIL));
+            userId.setText(ID + ": " + payload.getString(ID));
+
         } catch (JSONException e) {
-            Log.e("log_tag", "Error parsing data " + e.toString());
+            System.out.println("Exp=" + e);
         }
     }
 

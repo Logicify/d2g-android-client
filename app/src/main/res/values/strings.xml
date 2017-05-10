@@ -12,4 +12,12 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="personID">id</string>
+    <string name="personFIRSTNAME">firstName</string>
+    <string name="personLASTNAME">lastName</string>
+    <string name="personEMAIL">email</string>
+    <string name="personAVATARURL">avatarUrl</string>
+
+
 </resources>
